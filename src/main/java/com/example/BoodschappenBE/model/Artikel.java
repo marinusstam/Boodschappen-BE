@@ -12,12 +12,9 @@ public class Artikel {
     int id;
     String naam;
     String omschrijving;
+    String prio;
 
-    public String getOmschrijving() {
-        return omschrijving;
-    }
-
-// generate getters and setters
+ // generate getters and setters
 
     public int getId() {
         return id;
@@ -35,6 +32,16 @@ public class Artikel {
         this.naam = naam;
     }
 
+    public String getPrio() {
+        return prio;
+    }
+    public void setPrio(String prio) {
+        this.prio = prio;
+    }
+
+    public String getOmschrijving() {
+        return omschrijving;
+    }
     public void setOmschrijving(String omschrijving) {
         this.omschrijving = omschrijving;
     }

@@ -18,6 +18,7 @@ public class ArtikelController {
     Iterable<Artikel> findAll() {
         return artikelService.findAll();
     }
+
     @DeleteMapping("/artikel/{id}")
     void delete(@PathVariable int id) {
         artikelService.deleteById(id);
